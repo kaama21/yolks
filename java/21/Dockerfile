@@ -20,7 +20,7 @@
 # SOFTWARE.
 #
 
-FROM        --platform=$TARGETOS/$TARGETARCH amazoncorretto:21-jdk⁠
+FROM        --platform=$TARGETOS/$TARGETARCH amazoncorretto:21
 
 LABEL       author="Matthew Penner" maintainer="matthew@pterodactyl.io"
 
