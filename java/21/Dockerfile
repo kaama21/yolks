@@ -20,11 +20,11 @@
 # SOFTWARE.
 #
 
-FROM        --platform=$TARGETOS/$TARGETARCH amazoncorretto:21
+FROM        --platform=$TARGETOS/$TARGETARCH amazoncorretto:21-jdk
 
 LABEL       author="Matthew Penner" maintainer="matthew@pterodactyl.io"
 
-LABEL       org.opencontainers.image.source="https://github.com/KingdomBlocks/docker-images"
+LABEL       org.opencontainers.image.source="https://github.com/kaama21/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN 				apt-get update -y \
